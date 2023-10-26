@@ -1,0 +1,23 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "rootDir": "./src",
+        "outDir": "./lib",
+        "declarationDir": "./lib/types",
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "paths": {},
+        "plugins": [
+            {
+                "transform": "typescript-transform-paths"
+            },
+            {
+                "transform": "typescript-transform-paths",
+                "afterDeclarations": true
+            }
+        ]
+    },
+    "include": ["./src"]
+}

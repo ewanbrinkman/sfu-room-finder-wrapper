@@ -1,0 +1,4 @@
+{
+    "rooms": "https://viewsfu.its.sfu.ca/fsgis/rest/services/RoomFinder/RoomFinder2023_RoomSearch/MapServer/0/query",
+    "buildings": "https://viewsfu.its.sfu.ca/fsgis/rest/services/RoomFinder/RoomFinder2023_CampusMap/MapServer/0/query"
+}
